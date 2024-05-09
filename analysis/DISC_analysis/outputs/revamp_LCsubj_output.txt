@@ -1,0 +1,156 @@
+
+which_exp =
+
+revamp_LCsubj
+
+
+nsubj =
+
+     6
+
+processing BKN_1_revamp_UPDATED...
+processing DBD_1_revampHOR...
+processing LXL_1_revampHORRM...
+processing TMD_1_revampHORRM...
+processing UMD_1_revampHORRM...
+processing KEN_1_revampHORRM...
+{Warning: Iteration limit reached.} 
+> In <a href="matlab: opentoline('/Applications/MATLAB_R2010a.app/toolbox/stats/glmfit.m',355,1)">glmfit at 355</a>
+  In <a href="matlab: opentoline('/Users/rmruczek/Projects/SizeMotionIllusion/analysis/psychometric_from_staircase.m',74,1)">psychometric_from_staircase at 74</a>
+  In <a href="matlab: opentoline('/Users/rmruczek/Projects/SizeMotionIllusion/analysis/group_analysis.m',176,1)">group_analysis at 176</a>
+{Warning: Iteration limit reached.} 
+> In <a href="matlab: opentoline('/Applications/MATLAB_R2010a.app/toolbox/stats/glmfit.m',355,1)">glmfit at 355</a>
+  In <a href="matlab: opentoline('/Users/rmruczek/Projects/SizeMotionIllusion/analysis/psychometric_from_staircase.m',76,1)">psychometric_from_staircase at 76</a>
+  In <a href="matlab: opentoline('/Users/rmruczek/Projects/SizeMotionIllusion/analysis/group_analysis.m',176,1)">group_analysis at 176</a>
+starting permutation test (cond 1.100000e+00 vs. 1.200000e+00)...done in 0.04 s
+starting permutation test (cond 1.100000e+00 vs. 1.300000e+00)...done in 0.04 s
+starting permutation test (cond 1.100000e+00 vs. 1.400000e+00)...done in 0.05 s
+starting permutation test (cond 1.100000e+00 vs. 1.500000e+00)...done in 0.05 s
+starting permutation test (cond 1.200000e+00 vs. 1.300000e+00)...done in 0.05 s
+starting permutation test (cond 1.200000e+00 vs. 1.400000e+00)...done in 0.05 s
+starting permutation test (cond 1.200000e+00 vs. 1.500000e+00)...done in 0.07 s
+starting permutation test (cond 1.300000e+00 vs. 1.400000e+00)...done in 0.05 s
+starting permutation test (cond 1.300000e+00 vs. 1.500000e+00)...done in 0.04 s
+starting permutation test (cond 1.400000e+00 vs. 1.500000e+00)...done in 0.04 s
+
+condition_list =
+
+    1.1000    1.2000    1.3000    1.4000    1.5000
+
+
+psy_pse_mean =
+
+   25.0312   22.1502   11.1334   17.1707   18.7699
+
+
+onesamp_ttest =
+
+    0.0055    0.0040    0.0384    0.0079    0.0042
+
+
+onesamp_signrank =
+
+    0.0312    0.0312    0.0312    0.0312    0.0312
+
+
+rm_anova_p =
+
+   1.0e-03 *
+
+    0.3726
+    0.0001
+
+
+ans = 
+
+  Columns 1 through 6
+
+    'Source'    'Sum Sq.'       'd.f.'    'Singular?'    'Mean Sq.'    'F'      
+    'cond'      [  668.8200]    [   4]    [        0]    [167.2050]    [ 8.4287]
+    'subj'      [2.4373e+03]    [   5]    [        0]    [487.4527]    [24.5722]
+    'Error'     [  396.7521]    [  20]    [        0]    [ 19.8376]           []
+    'Total'     [3.5028e+03]    [  29]    [        0]            []           []
+
+  Columns 7 through 11
+
+    'Prob>F'        'Type'      'Expected MS'           'MS denom'    'd.f. denom'
+    [3.7264e-04]    'fixed'     '6*Q(cond)+V(Error)'    [ 19.8376]    [        20]
+    [6.6887e-08]    'random'    '5*V(subj)+V(Error)'    [ 19.8376]    [        20]
+              []    'random'    'V(Error)'                      []              []
+              []          []                      []            []              []
+
+  Columns 12 through 15
+
+    'Denom. defn.'    'Var. est.'    'Var. lower bnd'    'Var. upper bnd'
+    'MS(Error)'                []                  []                  []
+    'MS(Error)'       [  93.5230]    [       29.7122]    [      584.1141]
+                []    [  19.8376]    [       11.6113]    [       41.3681]
+                []             []                  []                  []
+
+
+friedman_p =
+
+    0.0036
+
+
+ans = 
+
+    'Source'     'SS'         'df'    'MS'        'Chi-sq'     'Prob>Chi-sq'
+    'Columns'    [     39]    [ 4]    [9.7500]    [15.6000]    [     0.0036]
+    'Error'      [21.0000]    [20]    [1.0500]           []               []
+    'Total'      [60.0000]    [29]          []           []               []
+
+
+perm_posthoc_d_sig =
+
+     0     0     1     0     0
+     0     0     1     1     0
+     1     1     0     0     0
+     0     1     0     0     0
+     0     0     0     0     0
+
+
+perm_posthoc_d_pval =
+
+         0    0.1250    0.0312    0.0625    0.0625
+    0.1250         0    0.0312    0.0312    0.0938
+    0.0312    0.0312         0    0.0625    0.0938
+    0.0625    0.0312    0.0625         0    0.3750
+    0.0625    0.0938    0.0938    0.3750         0
+
+
+wilcoxon_posthoc_sig =
+
+     0     0     1     0     0
+     0     0     1     1     0
+     1     1     0     0     0
+     0     1     0     0     0
+     0     0     0     0     0
+
+
+wilcoxon_posthoc_pval =
+
+         0    0.1562    0.0312    0.0625    0.0625
+    0.1562         0    0.0312    0.0312    0.0938
+    0.0312    0.0312         0    0.0625    0.0938
+    0.0625    0.0312    0.0625         0    0.4375
+    0.0625    0.0938    0.0938    0.4375         0
+
+
+lsd_posthoc_sig =
+
+     0     0     1     1     1
+     0     0     1     1     0
+     1     1     0     0     0
+     1     1     0     0     0
+     1     0     0     0     0
+
+
+lsd_posthoc_pval =
+
+         0    0.1014    0.0189    0.0104    0.0439
+    0.1014         0    0.0178    0.0037    0.1377
+    0.0189    0.0178         0    0.0651    0.0963
+    0.0104    0.0037    0.0651         0    0.3965
+    0.0439    0.1377    0.0963    0.3965         0
+

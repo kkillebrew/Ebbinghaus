@@ -1,0 +1,280 @@
+
+which_exp =
+
+lc
+
+
+nsubj =
+
+     6
+
+processing DBD...
+processing LXL...
+[Warning: Iteration limit reached.] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2013a.app/toolbox/stats/stats/glmfit.m',357,1)">glmfit at 357</a>
+  In <a href="matlab: opentoline('/Users/rmruczek/Projects/SizeMotionIllusion/staircase_0/analysis/psychometric_from_staircase.m',74,1)">psychometric_from_staircase at 74</a>
+  In <a href="matlab: opentoline('/Users/rmruczek/Projects/SizeMotionIllusion/staircase_0/analysis/lc_analysis.m',91,1)">lc_analysis at 91</a>] 
+[Warning: The estimated coefficients perfectly separate failures from
+successes. This means the theoretical best estimates are not finite. For
+the fitted linear combination XB of the predictors, the sample
+proportions P of Y=N in the data satisfy:
+   XB<-0.11798: P=0
+   XB>-0.11798: P=1] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2013a.app/toolbox/stats/stats/glmfit.m',566,1)">glmfit>diagnoseSeparation at 566</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2013a.app/toolbox/stats/stats/glmfit.m',363,1)">glmfit at 363</a>
+  In <a href="matlab: opentoline('/Users/rmruczek/Projects/SizeMotionIllusion/staircase_0/analysis/psychometric_from_staircase.m',74,1)">psychometric_from_staircase at 74</a>
+  In <a href="matlab: opentoline('/Users/rmruczek/Projects/SizeMotionIllusion/staircase_0/analysis/lc_analysis.m',91,1)">lc_analysis at 91</a>] 
+[Warning: Iteration limit reached.] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2013a.app/toolbox/stats/stats/glmfit.m',357,1)">glmfit at 357</a>
+  In <a href="matlab: opentoline('/Users/rmruczek/Projects/SizeMotionIllusion/staircase_0/analysis/psychometric_from_staircase.m',76,1)">psychometric_from_staircase at 76</a>
+  In <a href="matlab: opentoline('/Users/rmruczek/Projects/SizeMotionIllusion/staircase_0/analysis/lc_analysis.m',91,1)">lc_analysis at 91</a>] 
+[Warning: The estimated coefficients perfectly separate failures from
+successes. This means the theoretical best estimates are not finite. For
+the fitted linear combination XB of the predictors, the sample
+proportions P of Y=N in the data satisfy:
+   XB<-0.11798: P=0
+   XB>-0.11798: P=1] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2013a.app/toolbox/stats/stats/glmfit.m',566,1)">glmfit>diagnoseSeparation at 566</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2013a.app/toolbox/stats/stats/glmfit.m',363,1)">glmfit at 363</a>
+  In <a href="matlab: opentoline('/Users/rmruczek/Projects/SizeMotionIllusion/staircase_0/analysis/psychometric_from_staircase.m',76,1)">psychometric_from_staircase at 76</a>
+  In <a href="matlab: opentoline('/Users/rmruczek/Projects/SizeMotionIllusion/staircase_0/analysis/lc_analysis.m',91,1)">lc_analysis at 91</a>] 
+
+***WARNING: PSE derived from 'prop grow' and 'prop shrink' have opposite signs.  Seeting PSE to zero to avoid problems with signrank statistics.
+
+processing TMD...
+processing UMD...
+[Warning: Iteration limit reached.] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2013a.app/toolbox/stats/stats/glmfit.m',357,1)">glmfit at 357</a>
+  In <a href="matlab: opentoline('/Users/rmruczek/Projects/SizeMotionIllusion/staircase_0/analysis/psychometric_from_staircase.m',74,1)">psychometric_from_staircase at 74</a>
+  In <a href="matlab: opentoline('/Users/rmruczek/Projects/SizeMotionIllusion/staircase_0/analysis/lc_analysis.m',91,1)">lc_analysis at 91</a>] 
+[Warning: The estimated coefficients perfectly separate failures from
+successes. This means the theoretical best estimates are not finite. For
+the fitted linear combination XB of the predictors, the sample
+proportions P of Y=N in the data satisfy:
+   XB<3.19867: P=0
+   XB=3.19867: P=0.960784
+   XB>3.19867: P=1] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2013a.app/toolbox/stats/stats/glmfit.m',566,1)">glmfit>diagnoseSeparation at 566</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2013a.app/toolbox/stats/stats/glmfit.m',363,1)">glmfit at 363</a>
+  In <a href="matlab: opentoline('/Users/rmruczek/Projects/SizeMotionIllusion/staircase_0/analysis/psychometric_from_staircase.m',74,1)">psychometric_from_staircase at 74</a>
+  In <a href="matlab: opentoline('/Users/rmruczek/Projects/SizeMotionIllusion/staircase_0/analysis/lc_analysis.m',91,1)">lc_analysis at 91</a>] 
+[Warning: Iteration limit reached.] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2013a.app/toolbox/stats/stats/glmfit.m',357,1)">glmfit at 357</a>
+  In <a href="matlab: opentoline('/Users/rmruczek/Projects/SizeMotionIllusion/staircase_0/analysis/psychometric_from_staircase.m',76,1)">psychometric_from_staircase at 76</a>
+  In <a href="matlab: opentoline('/Users/rmruczek/Projects/SizeMotionIllusion/staircase_0/analysis/lc_analysis.m',91,1)">lc_analysis at 91</a>] 
+[Warning: The estimated coefficients perfectly separate failures from
+successes. This means the theoretical best estimates are not finite. For
+the fitted linear combination XB of the predictors, the sample
+proportions P of Y=N in the data satisfy:
+   XB<-3.19867: P=0
+   XB=-3.19867: P=0.0392157
+   XB>-3.19867: P=1] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2013a.app/toolbox/stats/stats/glmfit.m',566,1)">glmfit>diagnoseSeparation at 566</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2013a.app/toolbox/stats/stats/glmfit.m',363,1)">glmfit at 363</a>
+  In <a href="matlab: opentoline('/Users/rmruczek/Projects/SizeMotionIllusion/staircase_0/analysis/psychometric_from_staircase.m',76,1)">psychometric_from_staircase at 76</a>
+  In <a href="matlab: opentoline('/Users/rmruczek/Projects/SizeMotionIllusion/staircase_0/analysis/lc_analysis.m',91,1)">lc_analysis at 91</a>] 
+processing KEN...
+[Warning: Iteration limit reached.] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2013a.app/toolbox/stats/stats/glmfit.m',357,1)">glmfit at 357</a>
+  In <a href="matlab: opentoline('/Users/rmruczek/Projects/SizeMotionIllusion/staircase_0/analysis/psychometric_from_staircase.m',74,1)">psychometric_from_staircase at 74</a>
+  In <a href="matlab: opentoline('/Users/rmruczek/Projects/SizeMotionIllusion/staircase_0/analysis/lc_analysis.m',69,1)">lc_analysis at 69</a>] 
+[Warning: The estimated coefficients perfectly separate failures from
+successes. This means the theoretical best estimates are not finite. For
+the fitted linear combination XB of the predictors, the sample
+proportions P of Y=N in the data satisfy:
+   XB<1.83828: P=0
+   XB=1.83828: P=0.862745
+   XB>1.83828: P=1] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2013a.app/toolbox/stats/stats/glmfit.m',566,1)">glmfit>diagnoseSeparation at 566</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2013a.app/toolbox/stats/stats/glmfit.m',363,1)">glmfit at 363</a>
+  In <a href="matlab: opentoline('/Users/rmruczek/Projects/SizeMotionIllusion/staircase_0/analysis/psychometric_from_staircase.m',74,1)">psychometric_from_staircase at 74</a>
+  In <a href="matlab: opentoline('/Users/rmruczek/Projects/SizeMotionIllusion/staircase_0/analysis/lc_analysis.m',69,1)">lc_analysis at 69</a>] 
+[Warning: Iteration limit reached.] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2013a.app/toolbox/stats/stats/glmfit.m',357,1)">glmfit at 357</a>
+  In <a href="matlab: opentoline('/Users/rmruczek/Projects/SizeMotionIllusion/staircase_0/analysis/psychometric_from_staircase.m',76,1)">psychometric_from_staircase at 76</a>
+  In <a href="matlab: opentoline('/Users/rmruczek/Projects/SizeMotionIllusion/staircase_0/analysis/lc_analysis.m',69,1)">lc_analysis at 69</a>] 
+[Warning: The estimated coefficients perfectly separate failures from
+successes. This means the theoretical best estimates are not finite. For
+the fitted linear combination XB of the predictors, the sample
+proportions P of Y=N in the data satisfy:
+   XB<-1.83828: P=0
+   XB=-1.83828: P=0.137255
+   XB>-1.83828: P=1] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2013a.app/toolbox/stats/stats/glmfit.m',566,1)">glmfit>diagnoseSeparation at 566</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2013a.app/toolbox/stats/stats/glmfit.m',363,1)">glmfit at 363</a>
+  In <a href="matlab: opentoline('/Users/rmruczek/Projects/SizeMotionIllusion/staircase_0/analysis/psychometric_from_staircase.m',76,1)">psychometric_from_staircase at 76</a>
+  In <a href="matlab: opentoline('/Users/rmruczek/Projects/SizeMotionIllusion/staircase_0/analysis/lc_analysis.m',69,1)">lc_analysis at 69</a>] 
+[Warning: Iteration limit reached.] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2013a.app/toolbox/stats/stats/glmfit.m',357,1)">glmfit at 357</a>
+  In <a href="matlab: opentoline('/Users/rmruczek/Projects/SizeMotionIllusion/staircase_0/analysis/psychometric_from_staircase.m',74,1)">psychometric_from_staircase at 74</a>
+  In <a href="matlab: opentoline('/Users/rmruczek/Projects/SizeMotionIllusion/staircase_0/analysis/lc_analysis.m',91,1)">lc_analysis at 91</a>] 
+[Warning: The estimated coefficients perfectly separate failures from
+successes. This means the theoretical best estimates are not finite. For
+the fitted linear combination XB of the predictors, the sample
+proportions P of Y=N in the data satisfy:
+   XB<-0.11798: P=0
+   XB>-0.11798: P=1] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2013a.app/toolbox/stats/stats/glmfit.m',566,1)">glmfit>diagnoseSeparation at 566</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2013a.app/toolbox/stats/stats/glmfit.m',363,1)">glmfit at 363</a>
+  In <a href="matlab: opentoline('/Users/rmruczek/Projects/SizeMotionIllusion/staircase_0/analysis/psychometric_from_staircase.m',74,1)">psychometric_from_staircase at 74</a>
+  In <a href="matlab: opentoline('/Users/rmruczek/Projects/SizeMotionIllusion/staircase_0/analysis/lc_analysis.m',91,1)">lc_analysis at 91</a>] 
+[Warning: Iteration limit reached.] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2013a.app/toolbox/stats/stats/glmfit.m',357,1)">glmfit at 357</a>
+  In <a href="matlab: opentoline('/Users/rmruczek/Projects/SizeMotionIllusion/staircase_0/analysis/psychometric_from_staircase.m',76,1)">psychometric_from_staircase at 76</a>
+  In <a href="matlab: opentoline('/Users/rmruczek/Projects/SizeMotionIllusion/staircase_0/analysis/lc_analysis.m',91,1)">lc_analysis at 91</a>] 
+[Warning: The estimated coefficients perfectly separate failures from
+successes. This means the theoretical best estimates are not finite. For
+the fitted linear combination XB of the predictors, the sample
+proportions P of Y=N in the data satisfy:
+   XB<-0.11798: P=0
+   XB>-0.11798: P=1] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2013a.app/toolbox/stats/stats/glmfit.m',566,1)">glmfit>diagnoseSeparation at 566</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2013a.app/toolbox/stats/stats/glmfit.m',363,1)">glmfit at 363</a>
+  In <a href="matlab: opentoline('/Users/rmruczek/Projects/SizeMotionIllusion/staircase_0/analysis/psychometric_from_staircase.m',76,1)">psychometric_from_staircase at 76</a>
+  In <a href="matlab: opentoline('/Users/rmruczek/Projects/SizeMotionIllusion/staircase_0/analysis/lc_analysis.m',91,1)">lc_analysis at 91</a>] 
+
+***WARNING: PSE derived from 'prop grow' and 'prop shrink' have opposite signs.  Seeting PSE to zero to avoid problems with signrank statistics.
+
+processing BKN...
+[Warning: Iteration limit reached.] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2013a.app/toolbox/stats/stats/glmfit.m',357,1)">glmfit at 357</a>
+  In <a href="matlab: opentoline('/Users/rmruczek/Projects/SizeMotionIllusion/staircase_0/analysis/psychometric_from_staircase.m',74,1)">psychometric_from_staircase at 74</a>
+  In <a href="matlab: opentoline('/Users/rmruczek/Projects/SizeMotionIllusion/staircase_0/analysis/lc_analysis.m',91,1)">lc_analysis at 91</a>] 
+[Warning: The estimated coefficients perfectly separate failures from
+successes. This means the theoretical best estimates are not finite. For
+the fitted linear combination XB of the predictors, the sample
+proportions P of Y=N in the data satisfy:
+   XB<-0.11798: P=0
+   XB>-0.11798: P=1] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2013a.app/toolbox/stats/stats/glmfit.m',566,1)">glmfit>diagnoseSeparation at 566</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2013a.app/toolbox/stats/stats/glmfit.m',363,1)">glmfit at 363</a>
+  In <a href="matlab: opentoline('/Users/rmruczek/Projects/SizeMotionIllusion/staircase_0/analysis/psychometric_from_staircase.m',74,1)">psychometric_from_staircase at 74</a>
+  In <a href="matlab: opentoline('/Users/rmruczek/Projects/SizeMotionIllusion/staircase_0/analysis/lc_analysis.m',91,1)">lc_analysis at 91</a>] 
+[Warning: Iteration limit reached.] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2013a.app/toolbox/stats/stats/glmfit.m',357,1)">glmfit at 357</a>
+  In <a href="matlab: opentoline('/Users/rmruczek/Projects/SizeMotionIllusion/staircase_0/analysis/psychometric_from_staircase.m',76,1)">psychometric_from_staircase at 76</a>
+  In <a href="matlab: opentoline('/Users/rmruczek/Projects/SizeMotionIllusion/staircase_0/analysis/lc_analysis.m',91,1)">lc_analysis at 91</a>] 
+[Warning: The estimated coefficients perfectly separate failures from
+successes. This means the theoretical best estimates are not finite. For
+the fitted linear combination XB of the predictors, the sample
+proportions P of Y=N in the data satisfy:
+   XB<-0.11798: P=0
+   XB>-0.11798: P=1] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2013a.app/toolbox/stats/stats/glmfit.m',566,1)">glmfit>diagnoseSeparation at 566</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2013a.app/toolbox/stats/stats/glmfit.m',363,1)">glmfit at 363</a>
+  In <a href="matlab: opentoline('/Users/rmruczek/Projects/SizeMotionIllusion/staircase_0/analysis/psychometric_from_staircase.m',76,1)">psychometric_from_staircase at 76</a>
+  In <a href="matlab: opentoline('/Users/rmruczek/Projects/SizeMotionIllusion/staircase_0/analysis/lc_analysis.m',91,1)">lc_analysis at 91</a>] 
+
+***WARNING: PSE derived from 'prop grow' and 'prop shrink' have opposite signs.  Seeting PSE to zero to avoid problems with signrank statistics.
+
+starting permutation test (cond 1.400000e+00 vs. 3.100000e+00)...done in 0.06 s
+
+condition_list =
+
+    1.4000    3.1000
+
+
+psy_pse_mean =
+
+   11.1334    4.4543
+
+
+onesamp_ttest =
+
+    0.0384    0.2572
+
+
+onesamp_signrank =
+
+    0.0312    0.2500
+
+
+rm_anova_p =
+
+    0.0077
+    0.0020
+
+
+ans = 
+
+  Columns 1 through 5
+
+    'Source'    'Sum Sq.'     'd.f.'    'Singular?'    'Mean Sq.'
+    'cond'      [133.8334]    [   1]    [        0]    [133.8334]
+    'subj'      [805.4657]    [   5]    [        0]    [161.0931]
+    'Error'     [ 36.0718]    [   5]    [        0]    [  7.2144]
+    'Total'     [975.3709]    [  11]    [        0]            []
+
+  Columns 6 through 9
+
+    'F'          'Prob>F'    'Type'      'Expected MS'       
+    [18.5510]    [0.0077]    'fixed'     '6*Q(cond)+V(Error)'
+    [22.3295]    [0.0020]    'random'    '2*V(subj)+V(Error)'
+           []          []    'random'    'V(Error)'          
+           []          []          []                      []
+
+  Columns 10 through 13
+
+    'MS denom'    'd.f. denom'    'Denom. defn.'    'Var. est.'
+    [  7.2144]    [         5]    'MS(Error)'                []
+    [  7.2144]    [         5]    'MS(Error)'       [  76.9394]
+            []              []                []    [   7.2144]
+            []              []                []             []
+
+  Columns 14 through 15
+
+    'Var. lower bnd'    'Var. upper bnd'
+                  []                  []
+    [        9.6855]    [      483.1075]
+    [        2.8110]    [       43.3966]
+                  []                  []
+
+
+friedman_p =
+
+    0.0143
+
+
+ans = 
+
+    'Source'     'SS'    'df'    'MS'    'Chi-sq'    'Prob>Chi-sq'
+    'Columns'    [ 3]    [ 1]    [ 3]    [     6]    [     0.0143]
+    'Error'      [ 0]    [ 5]    [ 0]          []               []
+    'Total'      [ 3]    [11]      []          []               []
+
+
+perm_posthoc_d_sig =
+
+     0     1
+     1     0
+
+
+perm_posthoc_d_pval =
+
+         0    0.0312
+    0.0312         0
+
+
+wilcoxon_posthoc_sig =
+
+     0     1
+     1     0
+
+
+wilcoxon_posthoc_pval =
+
+         0    0.0312
+    0.0312         0
+
+
+lsd_posthoc_sig =
+
+     0     1
+     1     0
+
+
+lsd_posthoc_pval =
+
+         0    0.0077
+    0.0077         0
+

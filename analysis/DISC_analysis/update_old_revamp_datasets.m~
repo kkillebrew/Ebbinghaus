@@ -1,0 +1,28 @@
+% update two old revamp datasets so that variables fit conventions of revamp_HORRM
+% N.B. no values are changed from their original values.  only adding variables that weren't originally
+%      explicitly defined.  so we aren't doing anything fishy here.
+
+% BKN_1_revamp
+clear all; clear all; % make sure there are no variables in the current workspace
+load ../data/BKN_1_revamp_full.mat
+% update or convert
+condition_list = 1:5; % [-9 10 11 12 13] -> [1 2 3 4 5]
+% add to match n
+duration_sec = duration/refresh; % duration of animation in seconds
+diagrow = sqrt(2*sgrowth^2); % old datasets using diagonal growth that was longer than horizontal unit growth
+pursuit_speed = (sgrowth * refresh) / ppd;    % (pix/frame * frame/s ) / (pix/deg) = deg/s
+pursuit_dist  = pursuit_speed * duration_sec; % deg/s * s = deg
+
+diag_pursuit_speed = (sgrowth * refresh) / ppd;    % (pix/frame * frame/s ) / (pix/deg) = deg/s
+pursuit_dist  = pursuit_speed * duration_sec; % deg/s * s = deg
+
+
+old_dsets = {'BKN_1_revamp' 'DNS_1_revamp'};
+
+for dsetcell = old_dsets
+    dset = dsetcell{1}; % convert to string
+    
+    fprintf('%s\n',dset)
+    
+    
+    

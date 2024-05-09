@@ -1,0 +1,204 @@
+
+which_exp =
+
+revampHORRM
+
+
+nsubj =
+
+    15
+
+processing BKN_1_revamp_UPDATED...
+processing DNS_1_revamp_UPDATED...
+processing DBD_1_revampHOR...
+processing LXL_1_revampHORRM...
+processing TMD_1_revampHORRM...
+processing UMD_1_revampHORRM...
+processing KEN_1_revampHORRM...
+[Warning: Iteration limit reached.] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2013a.app/toolbox/stats/stats/glmfit.m',357,1)">glmfit at 357</a>
+  In <a href="matlab: opentoline('/Users/rmruczek/Projects/SizeMotionIllusion/staircase_0/analysis/psychometric_from_staircase.m',74,1)">psychometric_from_staircase at 74</a>
+  In <a href="matlab: opentoline('/Users/rmruczek/Projects/SizeMotionIllusion/staircase_0/analysis/group_analysis.m',177,1)">group_analysis at 177</a>] 
+[Warning: The estimated coefficients perfectly separate failures from
+successes. This means the theoretical best estimates are not finite. For
+the fitted linear combination XB of the predictors, the sample
+proportions P of Y=N in the data satisfy:
+   XB<1.83828: P=0
+   XB=1.83828: P=0.862745
+   XB>1.83828: P=1] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2013a.app/toolbox/stats/stats/glmfit.m',566,1)">glmfit>diagnoseSeparation at 566</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2013a.app/toolbox/stats/stats/glmfit.m',363,1)">glmfit at 363</a>
+  In <a href="matlab: opentoline('/Users/rmruczek/Projects/SizeMotionIllusion/staircase_0/analysis/psychometric_from_staircase.m',74,1)">psychometric_from_staircase at 74</a>
+  In <a href="matlab: opentoline('/Users/rmruczek/Projects/SizeMotionIllusion/staircase_0/analysis/group_analysis.m',177,1)">group_analysis at 177</a>] 
+[Warning: Iteration limit reached.] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2013a.app/toolbox/stats/stats/glmfit.m',357,1)">glmfit at 357</a>
+  In <a href="matlab: opentoline('/Users/rmruczek/Projects/SizeMotionIllusion/staircase_0/analysis/psychometric_from_staircase.m',76,1)">psychometric_from_staircase at 76</a>
+  In <a href="matlab: opentoline('/Users/rmruczek/Projects/SizeMotionIllusion/staircase_0/analysis/group_analysis.m',177,1)">group_analysis at 177</a>] 
+[Warning: The estimated coefficients perfectly separate failures from
+successes. This means the theoretical best estimates are not finite. For
+the fitted linear combination XB of the predictors, the sample
+proportions P of Y=N in the data satisfy:
+   XB<-1.83828: P=0
+   XB=-1.83828: P=0.137255
+   XB>-1.83828: P=1] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2013a.app/toolbox/stats/stats/glmfit.m',566,1)">glmfit>diagnoseSeparation at 566</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2013a.app/toolbox/stats/stats/glmfit.m',363,1)">glmfit at 363</a>
+  In <a href="matlab: opentoline('/Users/rmruczek/Projects/SizeMotionIllusion/staircase_0/analysis/psychometric_from_staircase.m',76,1)">psychometric_from_staircase at 76</a>
+  In <a href="matlab: opentoline('/Users/rmruczek/Projects/SizeMotionIllusion/staircase_0/analysis/group_analysis.m',177,1)">group_analysis at 177</a>] 
+processing S2_1_revampHORRM...
+processing S3_1_revampHORRM...
+processing S4_1_revampHORRM...
+processing S5_1_revampHORRM...
+processing S7_1_revampHORRM...
+processing S8_1_revampHORRM...
+processing S1_1_revampHORRM...
+processing S6_1_revampHORRM...
+starting permutation test (cond 1.100000e+00 vs. 1.200000e+00)...done in 32.90 s
+starting permutation test (cond 1.100000e+00 vs. 1.300000e+00)...done in 33.66 s
+starting permutation test (cond 1.100000e+00 vs. 1.400000e+00)...done in 33.32 s
+starting permutation test (cond 1.100000e+00 vs. 1.500000e+00)...done in 33.72 s
+starting permutation test (cond 1.200000e+00 vs. 1.300000e+00)...done in 33.59 s
+starting permutation test (cond 1.200000e+00 vs. 1.400000e+00)...done in 32.43 s
+starting permutation test (cond 1.200000e+00 vs. 1.500000e+00)...done in 32.80 s
+starting permutation test (cond 1.300000e+00 vs. 1.400000e+00)...done in 32.96 s
+starting permutation test (cond 1.300000e+00 vs. 1.500000e+00)...done in 31.51 s
+starting permutation test (cond 1.400000e+00 vs. 1.500000e+00)...done in 32.41 s
+
+condition_list =
+
+    1.1000    1.2000    1.3000    1.4000    1.5000
+
+
+psy_pse_mean =
+
+   15.1757   10.7570    6.4532    9.7781   10.1601
+
+
+onesamp_ttest =
+
+    0.0014    0.0102    0.0150    0.0057    0.0029
+
+
+onesamp_signrank =
+
+    0.0015    0.0125    0.0103    0.0026    0.0026
+
+
+rm_anova_p =
+
+   1.0e-04 *
+
+    0.5687
+    0.0000
+
+
+ans = 
+
+  Columns 1 through 5
+
+    'Source'    'Sum Sq.'       'd.f.'    'Singular?'    'Mean Sq.'
+    'cond'      [  584.0202]    [   4]    [        0]    [146.0050]
+    'subj'      [9.4623e+03]    [  14]    [        0]    [675.8800]
+    'Error'     [1.0738e+03]    [  56]    [        0]    [ 19.1753]
+    'Total'     [1.1120e+04]    [  74]    [        0]            []
+
+  Columns 6 through 9
+
+    'F'          'Prob>F'        'Type'      'Expected MS'        
+    [ 7.6142]    [5.6866e-05]    'fixed'     '15*Q(cond)+V(Error)'
+    [35.2474]    [1.2298e-22]    'random'    '5*V(subj)+V(Error)' 
+           []              []    'random'    'V(Error)'           
+           []              []          []                       []
+
+  Columns 10 through 13
+
+    'MS denom'    'd.f. denom'    'Denom. defn.'    'Var. est.'
+    [ 19.1753]    [        56]    'MS(Error)'                []
+    [ 19.1753]    [        56]    'MS(Error)'       [ 131.3409]
+            []              []                []    [  19.1753]
+            []              []                []             []
+
+  Columns 14 through 15
+
+    'Var. lower bnd'    'Var. upper bnd'
+                  []                  []
+    [       66.6842]    [      333.4818]
+    [       13.6675]    [       28.8570]
+                  []                  []
+
+
+friedman_p =
+
+    0.0015
+
+
+ans = 
+
+  Columns 1 through 5
+
+    'Source'     'SS'          'df'    'MS'         'Chi-sq' 
+    'Columns'    [ 43.8667]    [ 4]    [10.9667]    [17.5467]
+    'Error'      [106.1333]    [56]    [ 1.8952]           []
+    'Total'      [     150]    [74]           []           []
+
+  Column 6
+
+    'Prob>Chi-sq'
+    [     0.0015]
+               []
+               []
+
+
+perm_posthoc_d_sig =
+
+     0     1     1     1     1
+     1     0     0     0     0
+     1     0     0     1     1
+     1     0     1     0     0
+     1     0     1     0     0
+
+
+perm_posthoc_d_pval =
+
+         0    0.0020    0.0006    0.0018    0.0013
+    0.0020         0    0.0554    0.5304    0.6393
+    0.0006    0.0554         0    0.0432    0.0372
+    0.0018    0.5304    0.0432         0    0.7658
+    0.0013    0.6393    0.0372    0.7658         0
+
+
+wilcoxon_posthoc_sig =
+
+     0     1     1     1     1
+     1     0     0     0     0
+     1     0     0     0     1
+     1     0     0     0     0
+     1     0     1     0     0
+
+
+wilcoxon_posthoc_pval =
+
+         0    0.0026    0.0006    0.0020    0.0015
+    0.0026         0    0.0637    0.2524    0.4887
+    0.0006    0.0637         0    0.0833    0.0413
+    0.0020    0.2524    0.0833         0    0.5245
+    0.0015    0.4887    0.0413    0.5245         0
+
+
+lsd_posthoc_sig =
+
+     0     1     1     1     1
+     1     0     0     0     0
+     1     0     0     1     0
+     1     0     1     0     0
+     1     0     0     0     0
+
+
+lsd_posthoc_pval =
+
+         0    0.0024    0.0016    0.0011    0.0048
+    0.0024         0    0.0575    0.5258    0.6455
+    0.0016    0.0575         0    0.0461    0.0552
+    0.0011    0.5258    0.0461         0    0.7578
+    0.0048    0.6455    0.0552    0.7578         0
+

@@ -1,0 +1,134 @@
+
+which_exp =
+
+c3
+
+
+nsubj =
+
+    11
+
+processing S2_1_C3...
+processing S3_1_C3...
+processing S4_1_C3...
+processing S5_1_C3...
+processing S6_1_C3...
+processing S7_1_C3...
+processing S8_1_C3...
+processing S9_1_C3...
+processing S10_1_C3...
+processing S11_1_C3...
+processing S12_1_C3...
+starting permutation test (cond 2.100000e+00 vs. 2.200000e+00)...done in 1.40 s
+starting permutation test (cond 2.100000e+00 vs. 2.300000e+00)...done in 1.18 s
+starting permutation test (cond 2.200000e+00 vs. 2.300000e+00)...done in 1.25 s
+
+condition_list =
+
+    2.1000    2.2000    2.3000
+
+
+psy_pse_mean =
+
+   15.6081   16.4338   -2.3530
+
+
+onesamp_ttest =
+
+    0.0019    0.0034    0.4827
+
+
+onesamp_signrank =
+
+    0.0029    0.0098    0.8311    0.0103    0.0026
+
+
+rm_anova_p =
+
+   1.0e-03 *
+
+    0.0091
+    0.2339
+
+
+ans = 
+
+  Columns 1 through 8
+
+    'Source'    'Sum Sq.'       'd.f.'    'Singular?'    'Mean Sq.'      'F'          'Prob>F'        'Type'  
+    'cond'      [2.4795e+03]    [   2]    [        0]    [1.2397e+03]    [21.9369]    [9.0589e-06]    'fixed' 
+    'subj'      [3.5885e+03]    [  10]    [        0]    [  358.8548]    [ 6.3498]    [2.3393e-04]    'random'
+    'Error'     [1.1303e+03]    [  20]    [        0]    [   56.5144]           []              []    'random'
+    'Total'     [7.1983e+03]    [  32]    [        0]              []           []              []          []
+
+  Columns 9 through 14
+
+    'Expected MS'            'MS denom'    'd.f. denom'    'Denom. defn.'    'Var. est.'    'Var. lower bnd'
+    '11*Q(cond)+V(Error)'    [ 56.5144]    [        20]    'MS(Error)'                []                  []
+    '3*V(subj)+V(Error)'     [ 56.5144]    [        20]    'MS(Error)'       [ 100.7801]    [       19.1144]
+    'V(Error)'                       []              []                []    [  56.5144]    [       33.0788]
+                       []            []              []                []             []                  []
+
+  Column 15
+
+    'Var. upper bnd'
+                  []
+    [      357.3731]
+    [      117.8516]
+                  []
+
+
+friedman_p =
+
+   2.1293e-04
+
+
+ans = 
+
+    'Source'     'SS'         'df'    'MS'        'Chi-sq'     'Prob>Chi-sq'
+    'Columns'    [16.9091]    [ 2]    [8.4545]    [16.9091]    [ 2.1293e-04]
+    'Error'      [ 5.0909]    [20]    [0.2545]           []               []
+    'Total'      [     22]    [32]          []           []               []
+
+
+perm_posthoc_d_sig =
+
+     0     0     1
+     0     0     1
+     1     1     0
+
+
+perm_posthoc_d_pval =
+
+         0    0.7920    0.0010
+    0.7920         0    0.0010
+    0.0010    0.0010         0
+
+
+wilcoxon_posthoc_sig =
+
+     0     0     1
+     0     0     1
+     1     1     0
+
+
+wilcoxon_posthoc_pval =
+
+         0    0.9658    0.0010
+    0.9658         0    0.0010
+    0.0010    0.0010         0
+
+
+lsd_posthoc_sig =
+
+     0     0     1
+     0     0     1
+     1     1     0
+
+
+lsd_posthoc_pval =
+
+         0    0.7818    0.0000
+    0.7818         0    0.0010
+    0.0000    0.0010         0
+
